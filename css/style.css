@@ -1,0 +1,69 @@
+:root {
+    --white: #fff;
+    --font-family: "Poppins", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    height: 100vh;
+    background: url(../img/Travel-Time.png) no-repeat center/cover;
+}
+
+.container {
+    width: 100%;
+    padding: 13px 132px;
+    margin: 0 auto;
+}
+
+.nav__list {
+
+    display: flex;
+    column-gap: 130px;
+}
+
+.nav__link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--white);
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+}
